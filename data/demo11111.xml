@@ -1,0 +1,26 @@
+<mxGraphModel>
+    <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+
+        <mxCell id="4" edge="1" parent="1" source="2" target="3">
+            <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="2" value="开始" vertex="1" parent="1">
+            <mxGeometry x="130" y="90" width="20" height="20" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="6" edge="1" parent="1" source="3" target="5">
+            <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="3" value="自动节点" vertex="1" parent="1">
+            <mxGeometry x="240" y="70" width="130" height="60" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="5" value="结束" vertex="1" parent="1">
+            <mxGeometry x="450" y="90" width="20" height="20" as="geometry"/>
+        </mxCell>
+    </root>
+</mxGraphModel>
