@@ -1,13 +1,8 @@
 CompileFlowApi = {};
 
 CompileFlowApi.loadXml = function (editor, xmlId) {
-    CompileFlowUtils.Ajax.get('data/demo2.xml', function (bpm) {
-
-        //console.log('bpm:' + bpm);
-
+    CompileFlowUtils.Ajax.get('data/demo_bpm.xml', function (bpm) {
         var graphModel = CompileFlowCodec.bpmToGraphModel(bpm);
-        //console.log('graphModel:' + graphModel);
-
         var doc = mxUtils.parseXml(graphModel);
         editor.graph.importGraphModel(doc.documentElement);
     });
