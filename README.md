@@ -6,7 +6,7 @@
 https://github.com/jgraph/mxgraph
 
 # 预览方式
-这是一个存js工程，可以部署到任何服务器预览。例如，开发时，可以使用idea打开。然后访问index.html即可。替换data/demo_bpm.xml文件就可以查看你的bpm流程了。
+这是一个纯js工程，可以部署到任何服务器预览。例如，开发时，可以使用idea打开。然后访问index.html即可。替换data/demo_bpm.xml文件就可以查看你的bpm流程了。
 
 <img src='doc/1.png' />
 
